@@ -35,9 +35,7 @@ class ViewController: UIViewController {
     @IBAction func numberPress(_ sender: UIButton) {
         
         isNumPress = true
-        
-        print(isEqualTouch)
-        
+
         if isEqualTouch {
             textResult.text = "0"
             textPrevious.text = "0"
@@ -130,7 +128,6 @@ class ViewController: UIViewController {
     func plus() {
         let currentVal = Double(textResult.text!)
         currentValue = String(format: "%g", currentVal! * -1)
-        print(currentValue)
         i = 0
         textResult.text = currentValue
     }
@@ -138,19 +135,18 @@ class ViewController: UIViewController {
     func nagative() {
         let currentVal = Double(textResult.text!)
         currentValue = String(format: "%g", currentVal! * -1)
-        print(currentValue)
         i = 1
         textResult.text = currentValue
     }
     
     @IBAction func showResultPress(_ sender: Any) {
-        textResult.text = "0"
         caculateValue()
         sign = ""
         textSign.text = ""
-        textResult.text = previousValue
+        textResult.text = previousValue == "" ? "0" : previousValue
         isEqualTouch = true
         isNumPress = false
+        
         
         
     }

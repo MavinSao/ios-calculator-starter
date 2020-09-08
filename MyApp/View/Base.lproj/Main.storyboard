@@ -26,7 +26,9 @@
                                                 <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="C"/>
+                                                <state key="normal" title="C">
+                                                    <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="clearButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Inb-km-NcR"/>
                                                     <action selector="clearPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="koe-j7-zjH"/>

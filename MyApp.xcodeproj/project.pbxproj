@@ -56,15 +56,39 @@
 		843308712505D9D500E99CDD /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
-				843308722505D9D500E99CDD /* AppDelegate.swift */,
-				843308742505D9D500E99CDD /* SceneDelegate.swift */,
-				843308762505D9D500E99CDD /* ViewController.swift */,
-				843308782505D9D500E99CDD /* Main.storyboard */,
+				84CA297A25076E6000AC1446 /* Application Manager */,
+				84CA297B25076ED500AC1446 /* Controller */,
+				84CA297C25076EE800AC1446 /* View */,
 				8433087B2505D9D800E99CDD /* Assets.xcassets */,
 				8433087D2505D9D800E99CDD /* LaunchScreen.storyboard */,
 				843308802505D9D800E99CDD /* Info.plist */,
 			);
 			path = MyApp;
+			sourceTree = "<group>";
+		};
+		84CA297A25076E6000AC1446 /* Application Manager */ = {
+			isa = PBXGroup;
+			children = (
+				843308722505D9D500E99CDD /* AppDelegate.swift */,
+				843308742505D9D500E99CDD /* SceneDelegate.swift */,
+			);
+			path = "Application Manager";
+			sourceTree = "<group>";
+		};
+		84CA297B25076ED500AC1446 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				843308762505D9D500E99CDD /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84CA297C25076EE800AC1446 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				843308782505D9D500E99CDD /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
