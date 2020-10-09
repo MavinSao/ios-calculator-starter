@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8433086F2505D9D500E99CDD /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8433086F2505D9D500E99CDD /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843308722505D9D500E99CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843308742505D9D500E99CDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		843308762505D9D500E99CDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		843308702505D9D500E99CDD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8433086F2505D9D500E99CDD /* MyApp.app */,
+				8433086F2505D9D500E99CDD /* Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,9 +94,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8433086E2505D9D500E99CDD /* MyApp */ = {
+		8433086E2505D9D500E99CDD /* Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 843308832505D9D800E99CDD /* Build configuration list for PBXNativeTarget "MyApp" */;
+			buildConfigurationList = 843308832505D9D800E99CDD /* Build configuration list for PBXNativeTarget "Calculator" */;
 			buildPhases = (
 				8433086B2505D9D500E99CDD /* Sources */,
 				8433086C2505D9D500E99CDD /* Frameworks */,
@@ -106,9 +106,9 @@
 			);
 			dependencies = (
 			);
-			name = MyApp;
+			name = Calculator;
 			productName = MyApp;
-			productReference = 8433086F2505D9D500E99CDD /* MyApp.app */;
+			productReference = 8433086F2505D9D500E99CDD /* Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8433086A2505D9D500E99CDD /* Build configuration list for PBXProject "MyApp" */;
+			buildConfigurationList = 8433086A2505D9D500E99CDD /* Build configuration list for PBXProject "Calculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8433086E2505D9D500E99CDD /* MyApp */,
+				8433086E2505D9D500E99CDD /* Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -341,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8433086A2505D9D500E99CDD /* Build configuration list for PBXProject "MyApp" */ = {
+		8433086A2505D9D500E99CDD /* Build configuration list for PBXProject "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				843308812505D9D800E99CDD /* Debug */,
@@ -350,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		843308832505D9D800E99CDD /* Build configuration list for PBXNativeTarget "MyApp" */ = {
+		843308832505D9D800E99CDD /* Build configuration list for PBXNativeTarget "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				843308842505D9D800E99CDD /* Debug */,
